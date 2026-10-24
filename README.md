@@ -18,15 +18,20 @@ catalog, it also means the code around it, for example Czech spell-checking in W
 **Merged**
 - [PdfCraft](https://github.com/storytold/pdfcraft), [PhotoCraft](https://github.com/storytold/photocraft),
   [VectorCraft](https://github.com/storytold/vectorcraft), [GridCraft](https://github.com/storytold/gridcraft),
-  [CADCraft](https://github.com/storytold/cadcraft), [EffectCraft](https://github.com/storytold/effectcraft)
-  and the [Craft Launcher](https://github.com/storytold/craft-launcher): Czech interface
-- [WordCraft](https://github.com/storytold/wordcraft): fixes to the Czech interface
+  [CADCraft](https://github.com/storytold/cadcraft), [EffectCraft](https://github.com/storytold/effectcraft),
+  [DesignCraft](https://github.com/storytold/designcraft), [LightCraft](https://github.com/storytold/lightcraft),
+  [FigCraft](https://github.com/storytold/figcraft) and the [Craft Launcher](https://github.com/storytold/craft-launcher):
+  Czech interface, kept up to date as the apps grow
+- [WordCraft](https://github.com/storytold/wordcraft): completing and fixing the Czech catalog, and Czech
+  spell-checking with the system Hunspell dictionary
 
 **In review**
-- [DesignCraft](https://github.com/storytold/designcraft), [FilmCraft](https://github.com/storytold/filmcraft),
-  [LightCraft](https://github.com/storytold/lightcraft): Czech interface
-- WordCraft: the rest of the Czech catalog, and Czech spell-checking with the system Hunspell dictionary
+- [FilmCraft](https://github.com/storytold/filmcraft): Czech interface
+- CADCraft: the strings added since the first Czech catalog
 - [Hermes Agent](https://github.com/NousResearch/hermes-agent) (NousResearch): a small fix in the terminal UI
+
+When I come across a security problem in these apps, I report it in a public issue and review the fixes
+that follow, for example for PdfCraft's redaction.
 
 The current list is always in [my pull requests](https://github.com/search?q=author%3ALosminek+type%3Apr&type=pullrequests).
 Corrections from other Czech speakers are welcome in the pull requests.
