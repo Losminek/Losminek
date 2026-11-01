@@ -20,15 +20,17 @@ catalog, it also means the code around it, for example Czech spell-checking in W
   [VectorCraft](https://github.com/storytold/vectorcraft), [GridCraft](https://github.com/storytold/gridcraft),
   [CADCraft](https://github.com/storytold/cadcraft), [EffectCraft](https://github.com/storytold/effectcraft),
   [DesignCraft](https://github.com/storytold/designcraft), [LightCraft](https://github.com/storytold/lightcraft),
-  [FigCraft](https://github.com/storytold/figcraft) and the [Craft Launcher](https://github.com/storytold/craft-launcher):
-  Czech interface, kept up to date as the apps grow
+  [FigCraft](https://github.com/storytold/figcraft), [FilmCraft](https://github.com/storytold/filmcraft) and the
+  [Craft Launcher](https://github.com/storytold/craft-launcher): Czech interface, kept up to date as the apps grow
 - [WordCraft](https://github.com/storytold/wordcraft): completing and fixing the Czech catalog, and Czech
   spell-checking with the system Hunspell dictionary
 
 **In review**
-- [FilmCraft](https://github.com/storytold/filmcraft): Czech interface
+- [craft-i18n](https://github.com/storytold/craft-i18n), the shared catalog the apps are moving to: the Czech
+  WordCraft strings added since the move
 - CADCraft: the strings added since the first Czech catalog
-- [Hermes Agent](https://github.com/NousResearch/hermes-agent) (NousResearch): a small fix in the terminal UI
+- [Hermes Agent](https://github.com/NousResearch/hermes-agent) (NousResearch): the terminal UI fails closed when
+  the configured toolsets cannot be loaded
 
 When I come across a security problem in these apps, I report it in a public issue and review the fixes
 that follow, for example for PdfCraft's redaction.
