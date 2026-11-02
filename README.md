@@ -29,6 +29,7 @@ catalog, it also means the code around it, for example Czech spell-checking in W
 - [craft-i18n](https://github.com/storytold/craft-i18n), the shared catalog the apps are moving to: the Czech
   WordCraft strings added since the move
 - CADCraft and FilmCraft: the strings added since their Czech catalogs landed
+- EffectCraft: the panel strings added since the Czech interface landed, and Czech effect names
 - [Hermes Agent](https://github.com/NousResearch/hermes-agent) (NousResearch): the terminal UI fails closed when
   the configured toolsets cannot be loaded
 
